@@ -1,15 +1,15 @@
 `define OPCODE_I1 7'h13
 
-`include "/home/fana/main/riscv1/rtl/program_counter.v"
-`include "/home/fana/main/riscv1/rtl/register_file.v"
-`include "/home/fana/main/riscv1/rtl/register_file_mux.v"
-`include "/home/fana/main/riscv1/rtl/memory_ram_mux.v"
-`include "/home/fana/main/riscv1/rtl/instruction_type_r.v"
-`include "/home/fana/main/riscv1/rtl/instruction_type_i.v"
-`include "/home/fana/main/riscv1/rtl/instruction_type_s.v"
-`include "/home/fana/main/riscv1/rtl/instruction_type_u.v"
-`include "/home/fana/main/riscv1/rtl/instruction_type_b.v"
-`include "/home/fana/main/riscv1/rtl/instruction_type_j.v"
+`include "./rtl/program_counter.v"
+`include "./rtl/register_file.v"
+`include "./rtl/register_file_mux.v"
+`include "./rtl/memory_ram_mux.v"
+`include "./rtl/instruction_type_r.v"
+`include "./rtl/instruction_type_i.v"
+`include "./rtl/instruction_type_s.v"
+`include "./rtl/instruction_type_u.v"
+`include "./rtl/instruction_type_b.v"
+`include "./rtl/instruction_type_j.v"
 
 module riscv_32i_ia 
 	#(

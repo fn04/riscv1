@@ -1,7 +1,7 @@
-`include "/home/fana/main/riscv1/rtl/riscv_32i_ia.v"
-`include "/home/fana/main/riscv1/rtl/memory_rom.v"
-`include "/home/fana/main/riscv1/rtl/memory_ram.v"
-`include "/home/fana/main/riscv1/rtl/darkuart.v"
+`include "./rtl/riscv_32i_ia.v"
+`include "./rtl/memory_rom.v"
+`include "./rtl/memory_ram.v"
+`include "./rtl/darkuart.v"
 
 module socriscv32(
 	input						iRST,

@@ -1,5 +1,5 @@
 // `timescale 1ns / 1ps
-`include "../rtl/conf.vh"
+`include "./rtl/conf.vh"
 
 `define UART_STATE_IDLE  6
 `define UART_STATE_START 7

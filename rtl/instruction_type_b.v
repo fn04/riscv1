@@ -50,7 +50,8 @@ module instruction_type_b(
 						  32'h0;
 	
 	assign oPCBR = alu_out;
-	assign status = (imm12 == 8'h8) ? 1 : 0;
+	//assign status = (imm12 == 8'h8) ? 1 : 0;
+	assign status = imm12;
 	always @(posedge iCLK)
 	begin
 		//if(iIR[6:0]==7'h33)
